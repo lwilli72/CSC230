@@ -1,0 +1,140 @@
+@charset "utf-8";
+
+/*
+    Author: Larry William
+    Date  : 12-14-2020 
+    Filename: finalExam.css
+    Description: This file is used to give style to finalexam.html
+*/
+
+
+html {
+    background-color: rgb(175, 207, 167);
+ }
+ 
+ /* Page Body Styles */
+ body {
+    background-color: #03a85b;
+    line-height: 1;
+    font-family: Verdana, Tacoma, Helvetica;
+    font-size: 16pt;
+    color: black;
+    width: 85%;
+    margin: auto;
+ }
+ body {
+    font-family: Verdana, Tacoma, Helvetica;
+    font-size: 16pt;
+    color: black;
+    width: 85%;
+    margin: auto;
+    background-color: #03a85b; 
+}
+header h1{
+    font-size: 36pt;
+    margin: 35px 0px 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    background-color: #0a5e37;
+    color: white;   
+}
+header h3{
+    font-size: 24pt;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    background-color: #0a5e37;
+    color: white;   
+}
+
+header .articlehead{
+    font-family: arial;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 24pt;
+    text-align: center;
+    padding: 15px 0px 10px 15px;
+    background-color: #039e56;
+}
+
+h3{
+    font-family: arial;
+    font-size: 16pt;
+    text-align: left;
+}
+
+p{
+    margin: 15px;
+    padding: 15px;
+}
+
+header nav#mainLinks{
+    width: 20%;
+    height: 1240px;
+    float: left;
+    position: relative;
+    background-color: #03a85b;
+    list-style: none;
+    list-style-image: none;
+}
+
+
+nav#mainLinks ul li {
+    /* float: left; */	
+    list-style: none;   
+}
+nav#mainLinks ul li a {
+    color: white;	
+    height: 2.5em;	
+    line-height: 2.5em;	
+    text-decoration: none;
+}
+nav#mainLinks a:link, nav#mainLinks a:visited {
+    color: white;
+} 
+nav#mainLinks a:hover, nav#mainLinks a:active {
+    color: black;
+} 
+article{
+    float: right;
+    width: 80%;
+    background-color: #31eb95;
+}
+
+/* table style */
+section table{
+    width: 100%;
+}
+
+section table tr th{
+    text-align: center;
+    background-color:seagreen;
+    color: white;
+}
+
+section table tr td{
+    font-size: 16px;
+}
+
+ /* Footer Styles */
+footer {
+	background-color: #0a5e37;
+	color: white;	
+    padding: 25px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+footer header img{
+   width: 300px;
+   height: 300px;  
+}
+
+footer header  h3{
+    text-align: center;
+}
